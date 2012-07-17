@@ -1,0 +1,14 @@
+Source: r-cran-reshape
+Section: gnu-r
+Priority: optional
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Build-Depends: r-base-dev, r-base-core, debhelper (>> 4.1.0), cdbs, r-cran-plyr
+Homepage: http://had.co.nz/reshape
+
+Package: r-cran-reshape
+Architecture: all
+Maintainer: Hadley Wickham <h.wickham@gmail.com>
+Description: Reshape lets you flexibly restructure and aggregate data using just two functions: melt and cast
+License: MIT
+Depends: r-base-core, r-cran-plyr
+
